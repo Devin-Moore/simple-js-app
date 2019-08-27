@@ -1,0 +1,36 @@
+:root {
+  --primaryTextColorWhite: #fff;
+  --secondaryTextColorBlack: #000;
+  --fireTypePokemonRed: #ff5c33;
+  --waterTypePokemoneBlue: #809fff;
+  --grassTypePokemonGreen: #5dd55d;
+}
+
+html {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 2fr;
+  height: 90%;
+  width: 100%;
+  padding-top: 20px;
+}
+
+body {
+  grid-column: 2;
+}
+
+button {
+  background-color: lightgray;
+  color: var(--secondaryTextColorBlack);
+  border-radius: 15px;
+  border-color: gray;
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+  font-family: monospace;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
