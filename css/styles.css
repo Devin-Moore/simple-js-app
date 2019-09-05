@@ -34,3 +34,23 @@ ul {
   list-style: none;
   padding-left: 0;
 }
+
+#modal-container {
+  display: none;
+}
+
+#modal-container.is-visible {
+  display:block;
+  position: fixed;
+  padding: 20px;
+  box-sizing: border-box;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background: rgba(0, 0, 0, .75);
+  z-index: 999;
+  overflow: auto;
+  text-align: center;
+  color: var(--primaryTextColorWhite)
+}
